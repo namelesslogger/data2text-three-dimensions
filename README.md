@@ -1,3 +1,27 @@
+# Adaptiv doing to stoling
+
+## Inital setup
+
+
+1. Data and pretrained model have been made avalible here: [google drive link](https://drive.google.com/file/d/1RPvVVnqpeC1FvgyzELlrpA6ciX4bTwxk/view?usp=share_link), download first, then proceed to the following steps
+2. Extract tar archive with
+```bash
+tar -xzf data_and_model.tar.gz
+```
+this will create 2 new dirs in the repo, `/rotowire` and `/paper_model`
+
+3. Then, setup the venv. No poetry or conda, then activate
+```bash
+python -m venv ./data2text
+source ./data2text/bin/activate
+```
+4. Install requirements
+```bash
+pip install -r requirement.txt
+```
+5. now, we run the script
+
+
 # data2text-three-dimensions
 
 This repo contains code for [Table-to-Text Generation with Effective Hierarchical Encoder on Three Dimensions (Row, Column and Time)](https://www.aclweb.org/anthology/D19-1310.pdf) (Gong, H., Feng, X., Qin, B., & Liu, T.; EMNLP 2019); this code is based on [data2text-plan-py](https://github.com/ratishsp/data2text-plan-py).
